@@ -3,18 +3,16 @@ import AnniversaryTimer from "@/components/AnniversaryTimer";
 
 const memories = [
   {
-    src: "/WhatsApp%20Image%202026-10-18%20at%208.27.27%20PM.jpeg",
+    src: "https://raw.githubusercontent.com/yassenelkady286-bit/sara-my-love/main/WhatsApp%20Image%202026-10-18%20at%208.27.27%20PM.jpeg",
     number: "01",
     title: "The day it all began",
     caption: "11 November 2024",
-    className: "tile-one",
   },
   {
-    src: "/WhatsApp%20Image%202026-10-18%20at%208.26.49%20PM.jpeg",
+    src: "https://raw.githubusercontent.com/yassenelkady286-bit/sara-my-love/main/WhatsApp%20Image%202026-10-18%20at%208.26.49%20PM.jpeg",
     number: "02",
     title: "My favorite smile",
     caption: "A moment to remember",
-    className: "tile-two",
   },
 ];
 
@@ -25,6 +23,7 @@ export default function LovePage() {
         <a className="brand" href="#top" aria-label="S heart Y">
           S <span>♡</span> Y
         </a>
+
         <span className="topbar-note">
           A story that is still being written
         </span>
@@ -32,6 +31,7 @@ export default function LovePage() {
 
       <section className="hero" id="top">
         <div className="hero-glow" />
+
         <p className="eyebrow">TO MY SARA, MY HOME</p>
 
         <h1>
@@ -57,11 +57,15 @@ export default function LovePage() {
 
       <section className="timer-section" id="our-time">
         <p className="eyebrow">OUR LITTLE FOREVER STARTED</p>
+
         <h2>
           Since the day <em>we became us</em>
         </h2>
+
         <p className="date-line">11 · 11 · 2024</p>
+
         <AnniversaryTimer />
+
         <p className="timer-note">
           And somehow, every second makes me love you more.
         </p>
@@ -70,7 +74,9 @@ export default function LovePage() {
       <section className="letter-section">
         <div className="letter-card">
           <span className="letter-mark">“</span>
+
           <p className="eyebrow">A LETTER FOR YOU</p>
+
           <h2>Dear Eng Sara,</h2>
 
           <p className="letter-body">
@@ -93,25 +99,25 @@ export default function LovePage() {
 
       <section className="memory-section" id="memories">
         <p className="eyebrow">MORE OF OUR STORY</p>
+
         <h2>
           Our memories, <em>our little universe.</em>
         </h2>
+
         <p className="memory-intro">
           Two little pieces of our story, kept here just for you.
         </p>
 
         <div className="memory-grid">
           {memories.map((memory) => (
-            <article
-              className={`memory-tile ${memory.className}`}
-              key={memory.src}
-            >
+            <article className="memory-tile" key={memory.src}>
               <img
                 className="memory-photo"
                 src={memory.src}
                 alt={memory.title}
                 loading="lazy"
               />
+
               <div className="memory-caption">
                 <span>{memory.number}</span>
                 <p>{memory.title}</p>
@@ -119,18 +125,14 @@ export default function LovePage() {
               </div>
             </article>
           ))}
-
-          <article className="memory-tile tile-three">
-            <span>03</span>
-            <p>To many more</p>
-            <small>Our story goes on...</small>
-          </article>
         </div>
       </section>
 
       <footer className="footer">
         <div className="footer-heart">♥</div>
+
         <p>Made for Sara, with a love that keeps counting.</p>
+
         <span>11.11.2024 — ∞</span>
       </footer>
     </main>
