@@ -29,11 +29,11 @@ export default function LovePage() {
         <div className="letter-card">
           <span className="letter-mark">“</span>
           <p className="eyebrow">A LETTER FOR YOU</p>
-          <h2>Dear Sara,</h2>
+          <h2>Dear Eng Sara,</h2>
           <p className="letter-body">
-            You turned an ordinary date into the beginning of one of my favorite things in this world: us.
-            This little website is just a tiny place to keep a big feeling. No timer could ever count all
-            the reasons I love you, but I wanted it to count every second I get to be yours.
+            My fav Eng sara: Ahla Bashmohndsa F El 3alam Klo. اول حاجه حقك عليا انا مقصر معاكي فوق الوصف انا عارف والله بس انا والله من غير قصدي الدنيا مخبطه معايا جامد بس انشاءالله كل ال جاي خير و حلو والله انا بحبك اكتر من اي حاجه ف الدنيا كلها وانشاءالله نكمل عمرنا كله مع بعض احلى يوم ف حياتي كلها يوم م عرفتك و شوفتك بجد واحلى ايام حياتي ال عشناها انا وانتي مع بعض ف المدرسه كل حاجه معاكي حلوه وانشاءالله كل ال جاي مع بعض حلو وحشتيني اوي ونتقابل ع خير ي احلى بشمهندسه ف الدنيا كلها بحبك اوي .
+            
+             .
           </p>
           <p className="signature">Forever choosing you, <span>♡</span></p>
         </div>
