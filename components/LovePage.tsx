@@ -4,7 +4,7 @@ export default function LovePage() {
   return (
     <main className="love-page">
       <nav className="topbar">
-        <a className="brand" href="#top">S <span>♡</span> S</a>
+      <a className="brand" href="#top" aria-label="S heart Y">S <span>♡</span> Y</a>
         <span className="topbar-note">A story that is still being written</span>
       </nav>
 
